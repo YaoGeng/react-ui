@@ -1,17 +1,17 @@
 import React from 'react';
-import { NETextCmp } from './components/index'
+import { NeTextCmp } from './components/index'
 
 const App = () => {
 	return (
 		<div className="App">
-            <NETextCmp html={
+            <NeTextCmp html={
                 <>
                     <span>Hi </span>
                     <span>Yeager</span>
                     <p>giao giao</p>
                 </>
             }>
-			</NETextCmp>
+			</NeTextCmp>
 		</div>
 	);
 }

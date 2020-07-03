@@ -1,21 +1,21 @@
 /**
- * name		  : NETextCmp
+ * name		  : NeTextCmp
  * by         : Yeager
  * createTime : 2020.7.1
  * 
  * @param { html: *, size: 13||15||17||19 } props
  * 
  * usage:
-        <NETextCmp html={
+        <NeTextCmp html={
                 <>
                     <span>Hi </span>
                     <span>Yeager</span>
                     <p>giao giao</p>
                 </>
             }>
-		</NETextCmp>
+		</NeTextCmp>
 
-        <NETextCmp {...{
+        <NeTextCmp {...{
 				html:
 				<>
 					<span>Hi </span>
@@ -24,13 +24,13 @@
                 </>,
                 size: 13
 			}}>
-		</NETextCmp>
+		</NeTextCmp>
  */
 
 import React from 'react';
 import "./cmp.scss";
 
-const NETextCmp = (props) => {
+const NeTextCmp = (props) => {
 	const setSize = (size) => {
 		switch (size) {
 			case 13:
@@ -54,7 +54,7 @@ const NETextCmp = (props) => {
 	);
 };
 
-NETextCmp.defaultProps = {
+NeTextCmp.defaultProps = {
 	html: ""
 };
 
@@ -82,4 +82,4 @@ const Solt = (props) => {
 	);
 };
 
-export default NETextCmp;
+export default NeTextCmp;

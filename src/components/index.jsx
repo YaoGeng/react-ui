@@ -2,4 +2,4 @@
 import "../common/css/index.scss"
 
 /* 导入组件 */
-export { default as NETextCmp } from './NETextCmp/cmp'
+export { default as NeTextCmp } from './NeTextCmp/cmp'

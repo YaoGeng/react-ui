@@ -3,11 +3,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js[x]$/, exclude: /node_modules/, loader: 'babel-loader',
-        // /* query: {
-        //   presets: ['es2015', 'react'],
-        //   // plugins: ['transform-runtime']
-        // } */
+        test: /\.js[x]$/, exclude: /node_modules/, loader: 'babel-loader'
       },
       { test: /\.s(c|a)ss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
       { test: /\.styl(us)?$/, use: ['style-loader', 'css-loader', 'stylus-loader'] },
