@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@emotion/core": "^10.0.28",
 		"@svgr/webpack": "4.3.3",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
@@ -19,6 +20,8 @@
 		"chalk": "^4.1.0",
 		"core-js": "3",
 		"css-loader": "3.4.2",
+		"docz-plugin-css": "^0.11.0",
+		"docz-theme-default": "^1.2.0",
 		"dotenv": "8.2.0",
 		"dotenv-expand": "5.1.0",
 		"eslint": "^6.6.0",
@@ -52,6 +55,7 @@
 		"react-app-polyfill": "^1.0.6",
 		"react-dev-utils": "^10.2.1",
 		"react-dom": "^16.13.1",
+		"redux": "^4.0.5",
 		"resolve": "1.15.0",
 		"resolve-url-loader": "3.1.1",
 		"rimraf": "^3.0.2",
@@ -71,7 +75,9 @@
 	"scripts": {
 		"start": "node scripts/start.js",
 		"build": "node scripts/build.js",
-		"build:npm": "node scripts/buildNpm.js",
+        "build:npm": "node scripts/buildNpm.js",
+        "docz:dev": "docz dev",
+        "docz:build": "docz build",
 		"test": "node scripts/test.js"
 	},
 	"eslintConfig": {
