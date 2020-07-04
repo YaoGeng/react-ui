@@ -9,7 +9,7 @@ const pkg = require('../package.json');
 module.exports = merge(webpackBaseConfig, {
     mode: 'production',
     entry: {
-        main: path.resolve(__dirname, '../src/components/index.js')
+        main: path.resolve(__dirname, '../src/components/index.jsx')
     },
     output: {
         path: path.resolve(__dirname, "../dist"),
