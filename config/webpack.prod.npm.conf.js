@@ -1,6 +1,6 @@
 const webpack = require('webpack')
 const TerserPlugin = require('terser-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin') //for webpack 4
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path');
 const webpackBaseConfig = require('./webpack.base.npm.conf.js');
 const merge = require('webpack-merge');

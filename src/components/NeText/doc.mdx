@@ -1,0 +1,38 @@
+---
+name: NeText
+---
+
+### NeTextCmp
+
+import "./doc.scss"
+import { Playground, Props } from 'docz';
+import { NeText } from '../index';
+
+#### Example1
+<Playground>
+    <NeText html={
+        <>
+            <span>多标签</span>
+            <span>IIIiiipppdddjjj</span>
+            <p>IIIiiipppdddjjj</p>
+        </>
+    } />
+</Playground>
+
+#### Example2
+<Playground>
+    <NeText html={
+        <span>单标签IIIiiipppdddjjj</span>
+    } />
+</Playground>
+
+#### Example3
+<Playground>
+    <NeText html={
+        "纯文本"
+    } />
+</Playground>
+
+
+#### Props
+<Props of={ NeText }></Props>
